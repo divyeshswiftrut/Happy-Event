@@ -38,6 +38,8 @@ tailwind.config = {
         "05": "#808080",
         "06": "#2C2C2C",
         "07": "#1F1F1F",
+        "08": "#5F5F5F",
+        "09": "#373737",
       },
       cursor: {
         hand: "url(/assets/images/handCursor.svg), pointer",
