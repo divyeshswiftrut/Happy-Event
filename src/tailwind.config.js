@@ -1,6 +1,16 @@
 tailwind.config = {
   theme: {
     extend: {
+      transform: {
+        translate3d: "translate3d(0, 7vh, 0)",
+        scale3d: "scale3d(1, 1, 1)",
+        "preserve-3d": "preserve-3d",
+      },
+      translate: {
+        '10%': '10%',  // Add this custom value for translate-y-[10%]
+        '0%': '0%',    // Add this custom value for translate-y-[0%]
+      },
+
       transitionTimingFunction: {
         "in-out-expo": "cubic-bezier(0.85, 0, 0.15, 1)",
       },

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;600;700&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="src/tailwind.config.js"></script>
+    <style>
+        .text-stroke {
+            -webkit-text-stroke: 2px white;
+            /* Border width and color */
+            color: transparent;
+            /* Transparent fill */
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden bg-04">
+    <section>
+        <div class=" relative bg-cover md:bg-[0%_80%] bg-center w-[100vw] h-[126.67vw] md:w-[100vw] md:h-[49.48vw] overflow-x-hidden animate-fade-in delay-[300ms]"
+            id="menu-sec" style="background-image: url('assets/images/home\ page\ hero.jpg')">
+            <div
+                class="absolute inset-0 bg-gradient-to-b from-black/90  via-black/75   to-transparent  h-[126.67vw] md:h-[49.48vw] ">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-04 to-transparent "></div>
+
+            <!-- Header -->
+            <div class="absolute  flex   z-10 pt-[2%] animate-slide-up delay-[300ms]">
+                <header>
+                    <nav class="relative animate-slide-up delay-[300ms]">
+                        <div class="flex relative items-center w-[96vw] md:w-[87.5vw]  md:ml-[12.5vw] ml-[4vw]">
+                            <a href="index.html"><img
+                                    class="md:w-[20.2vw] w-[41.07vw] md:h-[5.10vw] h-[11.75vw] hover:scale-105 duration-300"
+                                    src="assets/images/logo.svg" alt=""></a>
+                            <div class="menu-icon md:ml-[60%] ml-[45%]" id="menuIcon">
+                                <img class="menu-icon md:w-[1.96vw] md:h-[1.51vw] w-[6.65vw] h-[5.18vw] hover:cursor-pointer hover:scale-110 duration-300"
+                                    src="assets/images/menu icon.svg" alt="">
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <!-- Menu -->
+            <div class="menu-div hidden absolute z-50 bg-cover md:bg-[0%_80%] bg-center w-[100vw] h-screen md:w-[100vw] md:h-[49.48vw] animate-slide-up delay-[300ms]"
+                id="menu" style="background-image: url('assets/images/home\ page\ hero.jpg')">
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-black/90  via-black/75   to-transparent  h-[90vw] md:h-[30vw] ">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent "></div>
+                <div
+                    class="absolute z-50 flex flex-col inset-0 block bg-black/10 backdrop-blur-md w-[100vw] h-screen md:w-[100vw] md:h-[49.48vw]  md:items-center">
+
+                    <!-- logo -->
+                    <div class="mb-[6.5%] mt-[3%] ml-[4vw] md:ml-0 ">
+                        <img class="md:w-[20.20vw] w-[41.07vw]    hover:scale-105 duration-300"
+                            src="assets/images/logo.svg" alt="">
+                    </div>
+                    <h1
+                        class="absolute md:mt-[15%] md:left-[4%] md:ml-[0%] ml-[17%] mt-[120vw]  md:text-[13.23vw] text-[34.14vw] font-dancing text-stroke opacity-[20%] hover:scale-105 hover:opacity-[100%]  duration-300">
+                        Menu
+                    </h1>
+                    <!-- close btn -->
+                    <div class="absolute md:right-[5%]   right-[3%] md:top-[80%] top-[1.5%] md:w-[4.17vw] md:h-[4.17vw] w-[10.67vw] h-[10.67vw] "
+                        id="close">
+                        <img class="close hover:cursor-pointer md:w-[4.17vw] md:h-[4.17vw] w-[10.67vw] h-[10.67vw] hover:scale-110 duration-300"
+                            src="assets/images/close.svg" alt="">
+                    </div>
+
+                    <ul
+                        class="menu text-05 font-playfair md:text-[2.45vw] text-[6.4vw] mt-[20vw] md:mt-[0%]  font-[500] justify-between w-full">
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="index.html">Home</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="about-us.html">About Us</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="services.html">Services</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="gallery.html">Gallery</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="videos.html">Video</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                        <li
+                            class="menu-item flex items-center justify-center gap-[2%] mx-auto hover:text-01 hover:font-[700] duration-100">
+                            <div
+                                class="line-left flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-l from-01 to-transparent opacity-0">
+                            </div>
+                            <a class="menu-link" href="contact-us.html">Contact Us</a>
+                            <div
+                                class="line-right flex h-[2px] w-[25vw] md:w-[30vw] z-10 bg-gradient-to-r from-01 to-transparent opacity-0">
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div
+                class="absolute  flex h-[1px] w-[81.87vw] md:w-[81.40vw]   md:ml-[18.6vw] ml-[16vw] md:mt-[6.5%] mt-[12%]  z-10  bg-gradient-to-r from-01 to-transparent ">
+            </div>
+
+            <!-- Design Vector -->
+            <div class="absolute md:mt-[6.5%] mt-[29%] md:right-[-7%] right-[-10%] animate-slide-up delay-[300ms] ">
+                <img class="md:w-[29.53vw] w-[57.47vw] md:h-[27.86vw] h-[56.11vw]" src="assets/images/design.svg" alt=""
+                    srcset="">
+            </div>
+
+            <!-- hero section -->
+            <div
+                class="absolute mt-[15%] md:mt-[7%] flex flex-col w-full justify-center items-center animate-slide-up delay-[300ms]">
+                <div
+                    class=" h-[15.94vw] md:h-[9.06vw] w-[1.5px]  md:w-[1.5px] z-10  bg-gradient-to-t from-01 via-01 to-transparent mt-[10%] md:mt-[5%]">
+                </div>
+                <div class=" flex flex-col w-[73.6vw] md:w-[65.67vw] mx-auto items-center">
+                    <h1
+                        class="w-[73.6vw] md:w-[43.44vw] mt-[5%] md:mt-[2%] text-white text-center font-playfair text-[6.4vw] md:text-[3.6vw] font-[700] animate-slide-up  hover:scale-105 duration-200">
+                        Videos</h1>
+
+
+                    <img class="z-10 w-[10.67vw] md:w-[4.21vw] h-[36.24vw] md:h-[14.27vw] mt-[-10%] md:mt-[-3%] hover:scale-105 duration-200 animate-slide-up "
+                        src="assets/images/down arrow.svg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="relative flex flex-col">
+            <div class="flex flex-col md:flex-row relative w-[92vw] md:w-[75vw] mx-auto mt-[10%] md:mt-[5%] md:items-center">
+                <div class="flex relative w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] ">
+                    <img class="relative  w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] object-cover" src="assets/images/sofa.jpg" alt="">
+                    <div
+                        class="absolute flex md:m-[2%] bg-black bg-opacity-[65%] w-[92vw] h-[65.34vw] md:w-[37.76vw] md:h-[26.46vw] items-center justify-center">
+                        <img class="w-[12.67vw] md:w-[5.42vw] hover:scale-110 duration-300 cursor-pointer" src="assets/images/playbtn.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="flex flex-col relative bg-03 w-[75.47vw] md:w-[42.86vw] mx-auto md:ml-[-10%] border-4 border-01 pb-[5%] md:pb-[3%] mt-[-10%] md:mt-[0] hover:scale-105 duration-500">
+                    <h3 class="text-[6.4vw] md:text-[2.5vw] text-01 font-playfair font-[700] mx-auto mt-[8%] md:mt-[5%]">Baby <span
+                            class="text-white">Shower</span></h3>
+                    <p class="w-[64.8vw] md:w-[38.18vw] text-02 text-[3.74vw] md:text-[1.042vw] mt-[6%] md:mt-[1%] font-outfit text-center mx-auto capitalize ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ipsum
+                        in commodo fringilla. Integer ac tristique tellus. Nam ac velit sed quam sodales tincidunt in
+                        sed mi.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row relative w-[92vw] md:w-[75vw] mx-auto mt-[10%] md:mt-[3%] md:items-center">
+                <div class="md:order-2 md:z-10 flex relative md:ml-[-10%] w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] ">
+                    <img class="relative  w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] object-cover object-[0%_25%]" src="assets/images/happybday.jpg" alt="">
+                    <div
+                        class="absolute flex  bg-black bg-opacity-[65%] w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] items-center justify-center">
+                        <img class="w-[12.67vw] md:w-[5.42vw] hover:scale-110 duration-300 cursor-pointer" src="assets/images/playbtn.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="md:order-1 md:z-20 flex flex-col relative bg-03 w-[75.47vw] md:w-[42.86vw] mx-auto  border-4 border-01 pb-[5%] md:pb-[3%] mt-[-10%] md:mt-[0] hover:scale-105 duration-500">
+                    <h3 class="text-[6.4vw] md:text-[2.5vw] text-01 font-playfair font-[700] mx-auto mt-[8%] md:mt-[5%]">Birthday <span
+                            class="text-white">Decoration </span></h3>
+                    <p class="w-[64.8vw] md:w-[38.18vw] text-02 text-[3.74vw] md:text-[1.042vw] mt-[6%] md:mt-[1%] font-outfit text-center mx-auto capitalize ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ipsum
+                        in commodo fringilla. Integer ac tristique tellus. Nam ac velit sed quam sodales tincidunt in
+                        sed mi.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row relative w-[92vw] md:w-[75vw] mx-auto mt-[10%] md:mt-[3%] md:items-center">
+                <div class="flex relative w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] ">
+                    <img class="relative  w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] object-cover" src="assets/images/g4.jpg" alt="">
+                    <div
+                        class="absolute flex bg-black bg-opacity-[65%] w-[92vw] h-[65.34vw] md:w-[39.32vw] md:h-[28.02vw] items-center justify-center">
+                        <img class="w-[12.67vw] md:w-[5.42vw] hover:scale-110 duration-300 cursor-pointer" src="assets/images/playbtn.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="flex flex-col relative bg-03 w-[75.47vw] md:w-[42.86vw] mx-auto md:ml-[-10%] border-4 border-01 pb-[5%] md:pb-[3%] mt-[-10%] md:mt-[0] hover:scale-105 duration-500">
+                    <h3 class="text-[6.4vw] md:text-[2.5vw] text-01 font-playfair font-[700] mx-auto mt-[8%] md:mt-[5%]">Corporate <span
+                            class="text-white">Event</span></h3>
+                    <p class="w-[64.8vw] md:w-[38.18vw] text-02 text-[3.74vw] md:text-[1.042vw] mt-[6%] md:mt-[1%] font-outfit text-center mx-auto capitalize ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ipsum
+                        in commodo fringilla. Integer ac tristique tellus. Nam ac velit sed quam sodales tincidunt in
+                        sed mi.</p>
+                </div>
+            </div>
+
+            <a href="#" class="md:w-[10.84vw] w-[36.8vw] mx-auto mt-[5%]">
+                <img class="md:w-[10.84vw] w-[36.8vw] " src="assets/images/view more.svg" alt="">
+            </a>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="relative flex flex-col w-full items-center bg-07 md:mt-[5%] mt-[8%] overflow-hidden">
+            <a href="index.html"
+                class="w-[41.067vw] h-[11.74vw] md:w-[13.17vw] md:h-[3.96vw] mx-auto mt-[5%] md:mt-[2%] hover:scale-105 duration-300"><img
+                    class="w-[41.067vw] h-[11.74vw] md:w-[13.17vw] md:h-[3.96vw] mx-auto mt-[5%] md:mt-[2%] hover:scale-105 duration-300"
+                    src="assets/images/logo.svg" alt=""></a>
+            <div
+                class="flex flex-wrap relative w-[92vw] md:w-[36.77vw]  items-center justify-center mx-auto mt-[7%] md:mt-[2%]">
+                <a href="index.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 mr-[5%] md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">Home</a>
+                <div class="w-[1px] h-[3.47vw] md:h-[0.68vw] bg-09 mr-[5%] md:mr-[3%] mb-[3%]"></div>
+                <a href="about-us.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 mr-[5%] md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">About
+                    Us</a>
+                <div class="w-[1px] h-[3.47vw] md:h-[0.68vw] bg-09 mr-[5%] md:mr-[3%] mb-[3%]"></div>
+                <a href="services.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 mr-[5%] md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">Services</a>
+                <div class="w-[1px] h-[3.47vw] md:h-[0.68vw] bg-09 mr-[5%] md:mr-[3%] mb-[3%]"></div>
+                <a href="gallery.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">Gallery</a>
+                <div class="hidden md:inline w-[1px] h-[3.47vw] mb-[3%] md:h-[0.68vw]  bg-09 mr-[5%] md:mr-[3%]"></div>
+                <a href="videos.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 mr-[5%] md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">Video</a>
+                <div class="w-[1px] h-[3.47vw] md:h-[0.68vw] mb-[3%] bg-09 mr-[5%] md:mr-[3%]"></div>
+                <a href="contact-us.html"
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 mr-[5%] md:mr-[3%] mb-[3%] hover:text-01 hover:scale-110 duration-300">Contact
+                    Us</a>
+            </div>
+            <div class="w-full h-[1px] bg-02/50 mt-[1%]"></div>
+
+            <div
+                class="relative flex flex-col md:w-[75vw] md:flex-row md:mt-[0.5%] mt-[4%] md:justify-between items-center pb-[0.5%]">
+                <div class="flex md:w-[7vw] w-[30vw] justify-between items-center">
+                    <!-- fb -->
+                    <a href="" class="md:w-[1.042vw] w-[5.34vw]">
+                        <svg class="md:w-[1.042vw] md:h-[1.042vw] w-[5.34vw] h-[5.34vw] text-08 hover:text-01 hover:scale-110 duration-300"
+                            viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.07999 11.0395H6.09999C5.77999 11.0395 5.67999 10.9195 5.67999 10.6195V8.19953C5.67999 7.87953 5.79999 7.77953 6.09999 7.77953H8.07999V6.01953C8.07999 5.21953 8.21999 4.45953 8.61999 3.75953C9.03999 3.03953 9.63999 2.55953 10.4 2.27953C10.9 2.09953 11.4 2.01953 11.94 2.01953H13.9C14.18 2.01953 14.3 2.13953 14.3 2.41953V4.69953C14.3 4.97953 14.18 5.09953 13.9 5.09953C13.36 5.09953 12.82 5.09953 12.28 5.11953C11.74 5.11953 11.46 5.37953 11.46 5.93953C11.44 6.53953 11.46 7.11953 11.46 7.73953H13.78C14.1 7.73953 14.22 7.85953 14.22 8.17953V10.5995C14.22 10.9195 14.12 11.0195 13.78 11.0195H11.46V17.5395C11.46 17.8795 11.36 17.9995 11 17.9995H8.49999C8.19999 17.9995 8.07999 17.8795 8.07999 17.5795V11.0395Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+
+                    <!-- insta -->
+                    <a href="" class="md:w-[0.94vw] w-[4.8vw]">
+
+                        <svg class="md:w-[0.94vw] md:h-[1.042vw] w-[4.8vw] h-[4.8vw] text-08 hover:text-01 hover:scale-110 duration-300"
+                            viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_142_2026)">
+                                <path
+                                    d="M14.2323 3.33203C13.9914 3.33203 13.7953 3.5281 13.7953 3.76902C13.7953 4.00995 13.9914 4.20602 14.2323 4.20602C14.4733 4.20602 14.6693 4.00998 14.6693 3.76902C14.6693 3.52806 14.4733 3.33203 14.2323 3.33203ZM8.99999 5.12729C6.86383 5.12729 5.12592 6.8652 5.12592 9.00136C5.12592 11.1375 6.86383 12.8755 8.99999 12.8755C11.1362 12.8755 12.8741 11.1376 12.8741 9.0014C12.8741 6.86523 11.1362 5.12729 8.99999 5.12729Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M13.0656 0H4.93443C2.21358 0 0 2.21358 0 4.93446V13.0656C0 15.7865 2.21358 18 4.93443 18H13.0656C15.7865 18 18 15.7864 18 13.0656V4.93446C18 2.21358 15.7865 0 13.0656 0ZM9 13.9371C6.27768 13.9371 4.06297 11.7223 4.06297 9C4.06297 6.27768 6.27771 4.06301 9 4.06301C11.7223 4.06301 13.9371 6.27771 13.9371 9C13.9371 11.7223 11.7223 13.9371 9 13.9371ZM14.2323 5.26767C13.4053 5.26767 12.7324 4.59478 12.7324 3.7677C12.7324 2.94061 13.4053 2.26768 14.2323 2.26768C15.0594 2.26768 15.7323 2.94057 15.7323 3.76766C15.7323 4.59475 15.0594 5.26767 14.2323 5.26767Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_142_2026">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+
+                    <!-- linkdin -->
+                    <a href="" class="md:w-[1.042vw] w-[5.34vw]">
+
+                        <svg class="md:w-[1.042vw] md:h-[1.042vw] w-[5.34vw] h-[5.34vw] text-08 hover:text-01 hover:scale-110 duration-300"
+                            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18 18V12.14C18 9.26 17.38 7.06 14.02 7.06C12.4 7.06 11.32 7.94 10.88 8.78H10.84V7.32H7.66V18H10.98V12.7C10.98 11.3 11.24 9.96 12.96 9.96C14.66 9.96 14.68 11.54 14.68 12.78V17.98H18V18ZM2.26 7.32H5.58V18H2.26V7.32ZM3.92 2C2.86 2 2 2.86 2 3.92C2 4.98 2.86 5.86 3.92 5.86C4.98 5.86 5.84 4.98 5.84 3.92C5.84 2.86 4.98 2 3.92 2Z"
+                                fill="currentColor" />
+                        </svg>
+
+                    </a>
+
+                    <!-- sms -->
+                    <a href="" class="md:w-[1.042vw] w-[5.34vw]">
+
+                        <svg class="md:w-[1.042vw] md:h-[1.042vw] w-[5.34vw] h-[5.34vw] text-08 hover:text-01 hover:scale-110 duration-300"
+                            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.1667 2.91602H5.83335C3.33335 2.91602 1.66669 4.16602 1.66669 7.08268V12.916C1.66669 15.8327 3.33335 17.0827 5.83335 17.0827H14.1667C16.6667 17.0827 18.3334 15.8327 18.3334 12.916V7.08268C18.3334 4.16602 16.6667 2.91602 14.1667 2.91602ZM14.5584 7.99102L11.95 10.0743C11.4 10.516 10.7 10.7327 10 10.7327C9.30002 10.7327 8.59169 10.516 8.05002 10.0743L5.44169 7.99102C5.17502 7.77435 5.13335 7.37435 5.34169 7.10768C5.55835 6.84102 5.95002 6.79102 6.21669 7.00768L8.82502 9.09102C9.45835 9.59935 10.5334 9.59935 11.1667 9.09102L13.775 7.00768C14.0417 6.79102 14.4417 6.83268 14.65 7.10768C14.8667 7.37435 14.825 7.77435 14.5584 7.99102Z"
+                                fill="currentColor" />
+                        </svg>
+
+                    </a>
+                </div>
+                <p
+                    class="text-[4.27vw] md:text-[0.99vw] font-[500] font-outfit text-08 hover:scale-110 duration-300 md:mt-[0%] mt-[4%] md:mb-[0%] mb-[4%]">
+                    © 2023,
+                    Happy Event. All right reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+<script src="src/menu.js"></script>
+
+
+</html>
