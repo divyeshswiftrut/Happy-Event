@@ -192,7 +192,7 @@
 
 
     <section>
-        <div class="relative flex bg-no-repeat object-cover bg-cover bg-center custom-bg-size"
+        <div class="relative flex bg-no-repeat object-cover bg-cover bg-center custom-bg-size overflow-hidden"
             style="background-image: url('assets/images/conference\ svg.svg')">
             <div class="absolute inset-0 bg-black bg-opacity-70"></div>
 
@@ -421,12 +421,13 @@
         scrollElements.forEach((entry) => {
             if (entry.getBoundingClientRect().top < window.innerHeight && entry.getBoundingClientRect().bottom >= 0) {
                 // If element is in the viewport
-                if (isScrollingDown) {
-                    entry.classList.remove("translate-y-[10%]");
-                    entry.classList.add("translate-y-[0%]");
-                } else {
+                if (!isScrollingDown) {
                     entry.classList.remove("translate-y-[0%]");
-                    entry.classList.add("translate-y-[10%]");
+                    entry.classList.add("translate-y-[20%]");
+                   
+                } else {
+                    entry.classList.remove("translate-y-[20%]");
+                    entry.classList.add("translate-y-[0%]");
                 }
             }
         });

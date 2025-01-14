@@ -7,7 +7,7 @@ tailwind.config = {
         "preserve-3d": "preserve-3d",
       },
       translate: {
-        '10%': '10%',  // Add this custom value for translate-y-[10%]
+        '20%': '20%',  // Add this custom value for translate-y-[10%]
         '0%': '0%',    // Add this custom value for translate-y-[0%]
       },
 
